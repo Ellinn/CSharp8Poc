@@ -10,8 +10,8 @@ namespace Repository.User
     {
         private readonly List<UserDto> users = new List<UserDto>
         {
-            new UserDto() { UserId = 1, LastName = "Ceul", Firstname = "Thib", Age = 45 },
-            new UserDto() { UserId = 2, LastName = "Mer", Firstname = "Adri", Age = 25 }
+            new UserDto { UserId = 1, LastName = "Ceul", Firstname = "Thib", Age = 45 },
+            new UserDto { UserId = 2, LastName = "Mer", Firstname = "Adri", Age = 25 }
         };
 
         public Result<List<UserDto>, string> GetAllUsers() =>
